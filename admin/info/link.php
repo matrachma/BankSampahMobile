@@ -1,0 +1,1 @@
+<div class="link_atas"><b><a href="?page=info">Lihat Semua Data Info</a></b> | <b> <a href="?page=input_info">Input Info Baru</a></b></div>

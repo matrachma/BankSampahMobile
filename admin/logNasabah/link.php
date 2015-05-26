@@ -1,0 +1,1 @@
+<div class="link_atas"><b><a href="?page=logNasabah">Lihat Semua Data Log Nasabah</a></b> | <b> <a href="?page=input_logNasabah">Input Data Log Baru</a></b></div>

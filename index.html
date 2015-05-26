@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        
+        <title>Bank Sampah Mobile</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+    </head>
+    <body>
+        
+    
+    <div data-role="page" data-theme='b'>
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a data-role='button' data-inline='true'><i class="lIcon fa fa-sign-in"></i></a>
+            <h1>Masuk</h1>
+        </div>
+
+
+        <div id='map-canvas'></div>
+        
+        <div data-role="content">
+            <form action="login.php" name="login" method="post" data-ajax="false">
+    	        <ul data-role="listview" data-inset="true">
+                    <li data-role="fieldcontain">
+                            <label for="name2b"><i class="fa fa-user fa-fw"></i>Username:</label>
+                            <input type="text" name="user" data-clear-btn="true" placeholder="Username">
+                    </li>
+                    <li data-role="fieldcontain">
+                            <label for="name2b"><i class="fa fa-key fa-fw fa-spin"></i>Password:</label>
+                            <input type="password" name="pass" data-clear-btn="true" placeholder="Password">
+                    </li>
+                    <li>
+                            <button type="submit" data-inline='true' data-ajax="false"><i class='lIcon fa fa-check'></i>Login</button>
+                    </li>
+    	        </ul>
+            </form>
+        </div>
+
+
+        <div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+            <p >Copyright &copy; Bank Sampah - Kota Bogor</p>
+        </div>
+
+    </div>
+    
+    <script src="js/nativedroid.script.js"></script>
+    </body>
+</html>

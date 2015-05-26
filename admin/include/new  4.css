@@ -1,0 +1,35 @@
+ul {
+  list-style:none;
+  position:relative;
+}
+a {
+  text-decoration:none;
+  color: #000;
+  font-weight:bold;
+}
+li {
+  display:inline;
+  background-color: #ff0000;
+  float:left;
+  padding:10px;
+  border-right:solid 1px #000;
+}
+li:last-child {
+  border-right:none;
+}
+li:hover {
+  background-color:#ccc;
+}
+li ul li {
+  clear: both; /*Ngebuat Vertical SubMenu*/
+  border-right:none; /*Ngilangin border kanan di submenu*/
+  background-color:#ccc; /*Kasi warna abu2 di submenu*/
+}
+ul ul {
+  padding-left:0px; /*Mepetin ke kiri submenunnya*/
+  padding-top: 5px; /*Kasih jarak antara menu dengan submenu*/
+  display:none; /*Nge-hidden submenunya*/
+}
+ul li:hover > ul {
+  display:block; /*Munculin submenu pas menunya ke hover*/    
+}

@@ -1,0 +1,1 @@
+<div class="link_atas"><b><a href="?page=sampah">Lihat Data Semua Sampah</a></b> | <b> <a href="?page=input_sampah">Input Data Sampah Baru</a></b></div>
